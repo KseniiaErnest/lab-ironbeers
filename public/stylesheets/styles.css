@@ -28,6 +28,17 @@ body {
   font-size: 1.4rem;
   box-shadow: 5px 3px 5px 5px rgb(0, 0, 0, 0.2);
 }
+.nav-link:link, .nav-link:active {
+  color: #f7f9f9 ;
+  text-decoration: none;
+  font-weight: bold;
+  padding-right: 1.5rem;
+
+} 
+
+.nav-link:hover, .nav-link:visited {
+  color: #f7f9f9;
+}
 
 .container {
   display: flex;
@@ -36,16 +47,49 @@ body {
   margin-top: 7rem
 }
 
+.container-link:link, .container-link:active {
+text-decoration: none;
+font-size: 1.2rem;
+font-weight: bold;
+color: #f7f9f9;
+background-color: #2081c3;
+padding: 1rem;
+border-radius: 11px;
+box-shadow: 1px 1px 7px 3px rgb(0, 0, 0, 0.2) ;
+margin-bottom: 2rem;
+
+}
+
+.container-link:hover, .container-link:visited {
+  color: #f7f9f9;
+}
+
 .img-beer {
-  width: 27rem;
+  width: 25rem;
+  margin-bottom: 3.4rem;
 }
 
 
 footer {
   background-color: #0a2c42;
   padding: 1.4rem ;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
+  color: #f7f9f9;
+  font-weight: bold;
+  font-size: 1.4rem;
   
+}
+
+
+.container-beers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.container-beers img {
+  height: 12.5rem;
+  object-fit: cover;
 }
