@@ -5,3 +5,47 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f7f9f9 ;
+  height: 100vh;
+}
+
+.navigation-bar {
+  background-color: #2081c3;
+  padding: 2rem 0rem 2rem 4rem;
+  font-size: 1.4rem;
+  box-shadow: 5px 3px 5px 5px rgb(0, 0, 0, 0.2);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem
+}
+
+.img-beer {
+  width: 27rem;
+}
+
+
+footer {
+  background-color: #0a2c42;
+  padding: 1.4rem ;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  
+}

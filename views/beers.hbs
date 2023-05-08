@@ -1,5 +1,5 @@
 
-  <h1>Beers</h1>
+  {{!-- <h1>Beers</h1>
   {{#each beers}}
   <div>
     <img src="{{this.image_url}}" alt="{{this.name}}">
@@ -7,5 +7,14 @@
     <p>{{this.description}}</p>
     <p>{{this.tagline}}</p>
 </div>
+{{/each}} --}}
+
+  <h1>Beers</h1>
+  {{#each beers}}
+  <div>
+    {{> beerpartial this}}
+</div>
 {{/each}}
+
+
 
